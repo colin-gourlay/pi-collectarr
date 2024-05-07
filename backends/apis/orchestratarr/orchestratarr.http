@@ -1,0 +1,6 @@
+@orchestratarr_HostAddress = http://localhost:5236
+
+GET {{orchestratarr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

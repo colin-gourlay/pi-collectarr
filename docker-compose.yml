@@ -1,0 +1,6 @@
+﻿services:
+  orchestratarr:
+    image: orchestratarr
+    build:
+      context: .
+      dockerfile: backends/apis/orchestratarr/Dockerfile
